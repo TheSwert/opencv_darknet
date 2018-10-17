@@ -1,0 +1,20 @@
+image_processing:
+  - platform: opencv_darknet
+    name: Front Door Object Detection
+    source:
+      - entity_id: camera.frontdoor
+    options:
+      detect_model: /home/homeassistant/.homeassistant/cfg/yolov3-tiny.cfg
+      weights: /home/homeassistant/.homeassistant/cfg/yolov3-tiny.weights
+      labels: /home/homeassistant/.homeassistant/cfg/coco.names
+      confidence: 0.55
+      # Optional parameter if you want to crop the input image
+      crop:
+        # Left X coordinate
+        x1: 0
+        # Top left Y coordinate
+        y1: 440
+        # Right X coordinate
+        x2: 480
+        # Bottom Y coordinate
+        y2: 640
