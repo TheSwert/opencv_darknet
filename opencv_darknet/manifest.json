@@ -1,0 +1,11 @@
+{
+    "domain": "opencv_darknet",
+    "name": "Opencv Darknet",
+    "documentation": "https://github.com/TheSwert/opencv_darknet",
+    "requirements": [
+      "numpy==1.16.4",
+      "opencv-python-headless==4.1.0.25"
+    ],
+    "dependencies": [],
+    "codeowners": []
+  }

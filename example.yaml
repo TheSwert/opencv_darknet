@@ -1,6 +1,5 @@
 image_processing:
   - platform: opencv_darknet
-    name: Front Door Object Detection
     source:
       - entity_id: camera.frontdoor
     options:

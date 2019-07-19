@@ -1,0 +1,1 @@
+"""The opencv_darknet component."""
