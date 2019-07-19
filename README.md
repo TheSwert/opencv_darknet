@@ -7,7 +7,7 @@ You will need to install OpenCV (at least version 3.4.3) with Python bindings
 
 ## Installing
 
-Copy `opencv_darknet.py` to your `custom_components/image_processing/` directory
+Copy `opencv_darknet` folder to your `custom_components/` directory
 
 ## Example
 
